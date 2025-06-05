@@ -19,7 +19,7 @@ function ProfileCard() {
           <p className="text-gray-300 text-base leading-relaxed mb-6">
             A passionate web developer student with a keen interest in creating dynamic and responsive web applications. I love to explore new technologies and continuously improve my skills.
           </p>
-          <div className="flex justify-center space-x-6 mb-8 ">
+          <div className="flex justify-center space-x-4 mb-8 ">
             <a key="Github" href="https://github.com/zxshhhh" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-200 transition-all duration-400 transform hover:scale-110" aria-label="Github">
               <box-icon type='logo' name='github' className='w-12 h-12 fill-current '></box-icon>
             </a>
