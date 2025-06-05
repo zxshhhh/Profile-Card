@@ -5,16 +5,16 @@ import myimage from '../assets/image/1000025297(Cropped).png'
 function ProfileCard() {
   return (
     <>
-      <main className="min-h-screen bg-gradient-to-br from-cyan-500 to-gray-900 flex flex-col items-center justify-center p-4 font-sans text-white ">
+      <main className="min-h-screen min-w-screen bg-gradient-to-br from-cyan-500 to-gray-900 flex flex-col items-center justify-center p-4 font-sans text-white ">
         <section className="bg-gray-800 rounded-3xl shadow-2xl p-8 w-screen max-w-200 overflow-hidden relative shadow-glow-card">
           <div className="absolute top-0 left-0 w-full h-1/3 bg-gradient-to-t from-gray-800 to-cyan-300 rounded-t-3xl"></div>
           <div className="relative z-10 flex justify-center mt-12 mb-6">
             <img
-              className="w-37 h-37 rounded-full object-cover border-6 border-gray-800 shadow-xl ring-4 ring-cyan-300 ring-opacity-20 scale-150 mt-10"
+              className="w-37 h-37 rounded-full object-cover border-6 border-gray-800 shadow-xl ring-4 ring-cyan-300 ring-opacity-20 scale-180 mt-10"
               src={myimage}
             />
           </div>
-          <h2 className="text-4xl font-bold text-white mb-2 mt-15">Zhoulo Pagalan</h2>
+          <h2 className="text-4xl font-bold text-white mb-2 mt-20">Zhoulo Pagalan</h2>
           <p className="text-xl text-cyan-200 font-medium mb-4">Web Developer | Graphics Designer</p>
           <p className="text-gray-300 text-base leading-relaxed mb-6">
             A passionate web developer student with a keen interest in creating dynamic and responsive web applications. I love to explore new technologies and continuously improve my skills.
