@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+.shadow-glow-card {
+  transition: all 0.4s ease-in-out;
+}
+
+.shadow-glow-card:hover {
+  box-shadow: 0 0 15px 5px rgb(85, 247, 239);
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+  transform: scale(1.01);
+}
+
+.shadow-button-glow:hover {
+  box-shadow: 0 0 15px 5px rgba(18, 219, 186, 0.8);
+}
